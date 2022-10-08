@@ -1,5 +1,5 @@
 {% set name = "jupyter_app_launcher" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d31694b6921e29f5f587f89764a0f1a7c61259cb01f14c62356def9cd31d787
+  sha256: 500719f00e7ae68aa7e698abce83732e010536090f0e2462c82f9fb6ff42ea92
 
 build:
   noarch: python
@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/trungleduc/jupyter_app_launcher
-  summary: 'JupyterLab extension to create custom launcher entries.'
+  summary: JupyterLab extension to create custom launcher entries.
   description: |
     jupyter_app_launcher helps users customize the JupyterLab launcher with a simple YAML file.
   license: BSD-3-Clause
