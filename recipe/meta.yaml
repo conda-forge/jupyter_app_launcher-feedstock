@@ -1,5 +1,5 @@
 {% set name = "jupyter_app_launcher" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7d14178ccd15345a40bcbc0aea41cb16ccee52aa0169aabea7e9c1ef530ebdef
+  sha256: 8c74d728603806d23996f1ab295981390830fc141a014ca4b6190b6e046d57ca
 
 build:
   noarch: python
