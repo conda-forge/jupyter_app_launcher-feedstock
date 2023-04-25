@@ -1,11 +1,11 @@
-About jupyter_app_launcher
-==========================
+About jupyter_app_launcher-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_app_launcher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/trungleduc/jupyter_app_launcher
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_app_launcher-feedstock/blob/main/LICENSE.txt)
 
 Summary: JupyterLab extension to create custom launcher entries.
 
