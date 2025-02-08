@@ -1,5 +1,5 @@
 {% set name = "jupyter_app_launcher" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7021268c5c4815133804fa92929f4ee108f0a6a2c3d274199e18cc56c9f897c
+  sha256: 6740b50423e3e0e8dcdfda141a1c1c26ddfd2b900092155ee1b535ed7ac5ac7c
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   entry_points:
     - jupyter-app_launcher = jupyter_app_launcher.script:build_lite
 
